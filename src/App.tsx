@@ -5,9 +5,10 @@ import {MuiTextField} from "./components/MuiTextField";
 import { MuiSelect } from "./components/MuiSelect"
 import {MuiRadioButton} from "./components/MuiRadioButton";
 import {FormHelperText} from "@mui/material";
+import {MuiCheckbox} from "./components/MuiCheckbox";
+import {MuiSwitch} from "./components/MuiSwitch";
 
-// https://www.youtube.com/watch?v=9L0QhB-6xBI&list=PLC3y8-rFHvwh-K9mDlrrcDywl7CeVL2rO&index=10
-
+// https://www.youtube.com/watch?v=K0HzYQDohvE&list=PLC3y8-rFHvwh-K9mDlrrcDywl7CeVL2rO&index=12
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
       {/*  <MuiButton />*/}
       {/*  <MuiTextField/>*/}
       {/*  <MuiSelect/>*/}
-      <MuiRadioButton/>
+      {/*<MuiRadioButton/>*/}
+      {/*  <MuiCheckbox/>*/}
+      <MuiSwitch/>
     </div>
   );
 }
